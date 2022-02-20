@@ -1,5 +1,5 @@
 //Made with ❤️ by brathu :)
-//Sorry guys, i hate it to comment code, so youre pain starts here lmao
+//Sorry guys, i hate it to comment code
 var slider = document.getElementById('slider');
 var output = document.getElementById('val');
 var passLabel = document.getElementById('pass');
