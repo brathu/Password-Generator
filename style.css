@@ -1,0 +1,128 @@
+html {
+    cursor: default;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None;
+
+}
+
+body {
+    text-align: center;
+    background-color: darkgreen;
+    font-family: 'Roboto Serif', sans-serif;
+    min-height:150px;
+    min-width:350px
+    
+}
+
+.outi {
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+}
+
+
+h2 {
+    color: darkgrey;
+}
+
+.inline {
+    display: inline-block;
+}
+
+button {
+    color: black;
+    background-color: green;
+    cursor: pointer;
+}
+
+.box {
+    background-color: gray;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    width: 350px;
+    margin: auto;
+
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid gray;
+    margin: 1em 0;
+    padding: 0;
+}
+
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+ 
+
+@keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+ 
+
+.menue {
+    animation: 1s ease-out 0s 1 slideInRight;
+    
+
+}
+
+.head {
+    line-height: 1em;
+    animation: 1s ease-out 0s 1 slideInLeft;
+
+}
+
+input {
+    width:250px;
+    height:30px;
+    background-color: gray;
+    border-width: 1.5px;
+    border-color: black;
+}
+
+input:hover {
+    background-color: rgb(1, 135, 135);
+    outline: none;
+    cursor: inherit;
+
+}
+input:focus {
+    background-color: rgb(120, 120, 120);
+    outline: none;
+    border-color: black;
+}
+
+.list {
+    text-align: start;
+}
+
+.madebyme {
+    animation: 1s ease-out 0s 1 slideInLeft;
+}
+
+input#slider {
+    accent-color: black;
+
+}

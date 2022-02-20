@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap" rel="stylesheet">
+    <title>Pop up</title>
+</head>
+<body>
+    <h1 class="head">Password Generator</h1>
+
+    <div class="menue"id="menue">
+        <div class="box">
+            <h2 id="pass">---</h2>
+        </div>
+        <br>
+        <div class="inline">
+            <button id="settings">SETTINGS</button>
+            <button id="copy">COPY</button>
+            <button id="gen">GENERATE</button>
+            <button id="copyToSave">COPY TO SAVE</button>
+        </div>
+    </div>
+
+    <div id="setmen" style="display: none;" class="settings">
+        <div>
+            <h2 style="color: black; line-height: 2em;">LENGTH:</h2>
+            <h1 style="color: lightgray;" id="val">8</h1>
+        </div>
+
+        <input type="range" id="slider" min="0" max="20" value="8">
+
+    </div>
+
+
+    <div id="savemen" style="display: none;">
+        <br>
+        <div>
+            <h2 style="color: black; line-height: 0.5em;">Service:</h2>
+            <input type="text" name="" id="serviceInp">
+            <h2 style="color: black; line-height: 0.5em;">Email/Username:</h2>
+            <input type="text" name="" id="emailOrUserInp">
+            <h2 style="color: black; line-height: 0.5em;">Password:</h2>
+            <input type="text" name="" id="passInp">
+        </div>
+        <br>
+        <button id="save">COPY TO SAVE..</button>
+    </div>
+
+    <script src="logic.js"></script>
+
+    
+</body>
+<footer id="footer">
+    <hr/>
+    <h3 class="madebyme">Made with ❤️ by brathu :)</h3>
+</footer>
+</html>
